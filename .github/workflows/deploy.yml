@@ -23,4 +23,4 @@ jobs:
 
       # Step 3: Copy files to S3
       - name: Deploy to S3
-        run: aws s3 sync . s3://YOUR-BUCKET-NAME --delete --exclude ".git/*" --exclude ".github/*"
+        run: aws s3 sync . s3://task2-static-web-hosting2 --delete --exclude ".git/*" --exclude ".github/*"
